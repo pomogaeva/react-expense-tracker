@@ -1,10 +1,4 @@
 // Reducer => a function that takes in the old state, and an action => new state...
-const transactions = [
-  {
-  id: 1,
-  }
-]
-
 const contextReducer = (state, action) => {
   let transactions;
 
